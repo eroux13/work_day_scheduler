@@ -40,6 +40,7 @@ body {
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
+    padding-top: 30px;
   }
   
   .past {
@@ -70,3 +71,6 @@ body {
     transition: all .3s ease-in-out;
   }
   
+  .fa-save{
+      font-size: 25px;
+  }
