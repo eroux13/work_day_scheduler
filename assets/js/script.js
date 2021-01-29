@@ -2,13 +2,13 @@ $(document).ready(function () {
     // Display current date
     var currentDate = moment().format("dddd, MMMM Do YYYY");
     $("#currentDay").append(currentDate);
+    console.log(currentDate);
 
     // Function to display time blocks for the day
     function displayTimeBlock() {
-        var currentHour = moment().hour();
-        console.log(currentHour);
-        var currentHours = moment().hours();
-        console.log(currentHours);
+        var currentHour = 13;
+        //moment().hour();
+        //console.log(currentHour);
 
         // Loop through time blocks to determine if its past, present, future
         $(".time-block").each(function () {
@@ -20,12 +20,24 @@ $(document).ready(function () {
             );
             // Test to see ID value
             console.log(timeBlock);
+
+            // Compare ID value to currentHour to see if it's past, present, or future
+            if (timeBlock < currentHour) {
+                $(this).removeClass("present");
+                $(this).removeClass("future");
+                $(this).addClass("past");
+            }
+            else if (timeBlock === currentHour) {
+                $(this).removeClass("past");
+                $(this).removeClass("future");
+                $(this).addClass("present");
+            }
+            else {
+                $(this).removeClass("past");
+                $(this).removeClass("present");
+                $(this).addClass("future");
+            }
         })
-        // $.each($(".hour"), function () {
-        //     var hourText = $.trim($(".hour").text());
-        //     var timeBlockHour = hourText.split("");
-        //     console.log(timeBlockHour[i]);
-        // })
     }
     // Call displayTimeBlock()
     displayTimeBlock();
