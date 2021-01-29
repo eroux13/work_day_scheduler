@@ -12,7 +12,13 @@ $(document).ready(function () {
 
         // Loop through time blocks to determine if its past, present, future
         $(".time-block").each(function () {
-            var timeBlock = parseInt($(this).attr("id").split("block")[1]);
+            // Grab the assigned number value of the ID and set it in variable to compare later
+            var timeBlock = parseInt( // Since the value is a string, use parseInt to change data into a number
+                $(this) // Select this, in this case ".time-block"
+                    .attr("id") // Grab the ID attribute
+                    .split("block")[1] // Split by "block" and since it returns an array of substrings, access timeBlock[1] === blocks unique ID
+            );
+            // Test to see ID value
             console.log(timeBlock);
         })
         // $.each($(".hour"), function () {
