@@ -1,7 +1,7 @@
 # Work Day Scheduler
-![HTML](https://img.shields.io/badge/HTML-60.5%25-red)
-![CSS](https://img.shields.io/badge/CSS-16.3%25-purple)
-![JavaScript](https://img.shields.io/badge/JavaScript-23.2%25-yellow)
+![HTML](https://img.shields.io/badge/HTML-47.6%25-red)
+![CSS](https://img.shields.io/badge/CSS-12.5%25-purple)
+![JavaScript](https://img.shields.io/badge/JavaScript-39.9%25-yellow)
 
 ## Description
 
