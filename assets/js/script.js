@@ -53,55 +53,55 @@ $(document).ready(function () {
     // Save functions
     $(".save9").on("click", function (e) {
         e.preventDefault();
-        if ($(".event9") !== "") {
+        if ($(this) !== "") {
             localStorage.setItem("event9", $(".event9").val());
         }
     })
     $(".save10").on("click", function (e) {
         e.preventDefault();
-        if ($(".event10") !== "") {
+        if ($(this) !== "") {
             localStorage.setItem("event10", $(".event10").val());
         }
     })
     $(".save11").on("click", function (e) {
         e.preventDefault();
-        if ($(".event11") !== "") {
+        if ($(this) !== "") {
             localStorage.setItem("event11", $(".event11").val());
         }
     })
     $(".save12").on("click", function (e) {
         e.preventDefault();
-        if ($(".event12") !== "") {
+        if ($(this) !== "") {
             localStorage.setItem("event12", $(".event12").val());
         }
     })
     $(".save13").on("click", function (e) {
         e.preventDefault();
-        if ($(".event13") !== "") {
+        if ($(this) !== "") {
             localStorage.setItem("event13", $(".event13").val());
         }
     })
     $(".save14").on("click", function (e) {
         e.preventDefault();
-        if ($(".event14") !== "") {
+        if ($(this) !== "") {
             localStorage.setItem("event14", $(".event14").val());
         }
     })
     $(".save15").on("click", function (e) {
         e.preventDefault();
-        if ($(".event9") !== "") {
+        if ($(this) !== "") {
             localStorage.setItem("event15", $(".event15").val());
         }
     })
     $(".save16").on("click", function (e) {
         e.preventDefault();
-        if ($(".event16") !== "") {
+        if ($(this) !== "") {
             localStorage.setItem("event16", $(".event16").val());
         }
     })
     $(".save17").on("click", function (e) {
         e.preventDefault();
-        if ($(".event17") !== "") {
+        if ($(this) !== "") {
             localStorage.setItem("event17", $(".event17").val());
         }
     })
