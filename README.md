@@ -11,6 +11,10 @@ Deployed Project: https://eroux13.github.io/work_day_scheduler
 
 ## How it Works
 
-This application updates dynamically according to the current time. When a time block is in the past, the block turn grey. When the time block is in the current time, it updates to red. When it is a future time block, it updates to green. When the save button to the right of the time block is clicked on, the event entered will save to local storage.
+This application updates dynamically according to the current time. When a time block is in the past, the block turn grey. When the time block is in the current time, it updates to red. When it is a future time block, it updates to green.
 
 ![Work Day Scheduler Screenshot](./assets/images/workDaySchedulerScreenshot.png)
+
+When the save button to the right of the time block is clicked on, the event entered will save to local storage.
+
+![Local Storage Screenshot](./assets/images/localStorageScreenshot.png)
